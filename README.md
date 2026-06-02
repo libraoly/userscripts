@@ -3,6 +3,7 @@
 @libraoly's userscripts.
 
 - [Windy Premium Cleaner](https://github.com/libraoly/userscripts/raw/refs/heads/release/windy-premium.user.js) - Remove Windy Premium watermark and grayscale filter.
+- [FlightConnections Premium](https://github.com/libraoly/userscripts/raw/refs/heads/release/flightconnections-premium.user.js) - Unlock premium features on flightconnections.com.
 
 ## Credits
 

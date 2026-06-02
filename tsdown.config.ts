@@ -32,6 +32,19 @@ const scripts: ScriptConfig[] = [
       'grant': 'GM_addStyle',
     },
   },
+  {
+    id: 'flightconnections-premium',
+    banner: {
+      'name': 'FlightConnections Premium',
+      'name:zh-CN': 'FlightConnections Premium',
+      'version': '1.0.0',
+      'description': 'Unlock premium features on flightconnections.com.',
+      'description:zh-CN': '解锁 flightconnections.com 的 Premium 功能。',
+      'run-at': 'document-start',
+      'match': 'https://www.flightconnections.com/*',
+      'grant': 'none',
+    },
+  },
 ]
 
 export default defineConfig(
