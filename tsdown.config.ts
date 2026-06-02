@@ -61,8 +61,8 @@ export default defineConfig(
       banner: generateBanner({
         ...script.banner,
         ...sharedBanner,
-        namespace: `https://github.com/libraoly/userscripts/blob/release/${script.id}.user.js`,
-        downloadURL: `https://github.com/libraoly/userscripts/raw/refs/heads/release/${script.id}.user.js`,
+        namespace: `https://github.com/libraoly/userscripts/releases/latest/download/${script.id}.user.js`,
+        downloadURL: `https://github.com/libraoly/userscripts/releases/latest/download/${script.id}.user.js`,
       }),
     }
   }),
