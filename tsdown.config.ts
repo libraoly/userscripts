@@ -7,6 +7,7 @@ type Banner = Record<string, string | string[]>
 const sharedBanner: Banner = {
   author: 'libraoly <uylor.liao@gmail.com>',
   homepage: 'https://github.com/libraoly/userscripts',
+  homepageURL: 'https://github.com/libraoly/userscripts',
   supportURL: 'https://github.com/libraoly/userscripts/issues',
   license: 'MIT',
   contributionURL: 'https://github.com/sponsors/libraoly',
@@ -24,7 +25,7 @@ const scripts: ScriptConfig[] = [
     banner: {
       'name': 'Windy Premium Cleaner',
       'name:zh-CN': 'Windy Premium 清理器',
-      'version': '1.0.0',
+      'version': '1.0.1',
       'description': 'Remove Windy Premium watermark and grayscale filter.',
       'description:zh-CN': '移除 Windy Premium 水印和灰度滤镜。',
       'run-at': 'document-start',
@@ -37,7 +38,7 @@ const scripts: ScriptConfig[] = [
     banner: {
       'name': 'FlightConnections Premium',
       'name:zh-CN': 'FlightConnections Premium',
-      'version': '1.0.0',
+      'version': '1.0.1',
       'description': 'Unlock premium features on flightconnections.com.',
       'description:zh-CN': '解锁 flightconnections.com 的 Premium 功能。',
       'run-at': 'document-start',
@@ -75,5 +76,6 @@ function generateBanner(properties: Banner) {
   })
   return `// ==UserScript==
 ${lines.join('\n')}
-// ==/UserScript==`
+// ==/UserScript==
+`
 }
